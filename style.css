@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(240deg,
+            rgba(0, 0, 0, 1) 27%,
+            rgba(0, 212, 255, 1) 91%);
+    color: #fff;
+    overflow: hidden;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    border: 2px solid #fff;
+    background: rgb(19, 190, 194);
+    background: linear-gradient(60deg,
+            rgba(19, 190, 194, 1) 41%,
+            rgba(0, 0, 0, 1) 93%);
+    border-radius: 6px;
+    padding: 2rem 4rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2rem;
+    user-select: none;
+}
+
+input {
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+/* buttons */
+
+button {
+    padding: 0.6rem 2rem;
+    margin: 1rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+}
+
+button:hover {
+    background-color: #222;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.add {
+    background: green;
+}
+
+.add:hover {
+    background: rgba(0, 128, 0, 0.781);
+}
+
+.sub {
+    background: red;
+}
+
+.sub:hover {
+    background: rgba(255, 0, 0, 0.822);
+}
