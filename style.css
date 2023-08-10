@@ -82,3 +82,14 @@ button:active {
 .sub:hover {
     background: rgba(255, 0, 0, 0.822);
 }
+
+footer {
+    padding: 0.4rem 2rem;
+    background-color: #000;
+    position: fixed;
+    inset: auto 0 0 0;
+}
+
+footer a {
+    color: #fff;
+}
